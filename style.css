@@ -22,11 +22,19 @@ header {
   text-align: center;
 }
 
-.front {
+/* .front {
   width: 100%;
   transform: scale(0);
   transition: all 5s;
   padding: 0 !important
+} */
+
+.front {
+  display: block;
+  width: 25%;
+  margin: 0 auto;
+  transform: scale(0);
+  transition: all 5s;
 }
 
 .front.animate {
